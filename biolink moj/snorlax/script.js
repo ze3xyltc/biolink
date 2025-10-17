@@ -113,11 +113,11 @@ function initBubbleCursor(wrapperElement) {
     };
 }
 
-async function loadViews() {
-  const response = await fetch('http://fazerp.eu/montey/views.php');
-  const data = await response.json();
-  document.getElementById('view-count').innerText = data.views;
-}
+// async function loadViews() {
+//   const response = await fetch('http://fazerp.eu/montey/views.php');
+//   const data = await response.json();
+ //  document.getElementById('view-count').innerText = data.views;
+// }
 
 var texts = ['Discord Bot Developer', 'Lua Developer', 'devilgg on top'];
 var currentTextIndex = 0;
